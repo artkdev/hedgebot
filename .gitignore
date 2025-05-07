@@ -1,0 +1,102 @@
+# Python bytecode and virtual environment
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+
+# Python environment variables
+.env
+.env.*
+
+# Python tools and test cache
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.pytest_cache/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+*.spec
+
+# Python build
+dist/
+build/
+
+# SQLite and local databases
+*.db
+*.sqlite3
+
+# Logs and runtime
+*.log
+*.pid
+
+# IPython and Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Telegram / aiogram specific
+*.session
+
+# Editor configs
+.vscode/
+.idea/
+
+# Node.js (optional frontend or admin panels)
+node_modules/
+
+# System files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Git
+*.orig
+
+# GitHub Copilot logs
+copilot_logs/
+
+# Project-specific paths (if needed)
+config/accounts.json
+chromedriver.log
+
+# Visual Studio (for Windows devs, optional)
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+[Bb]in/
+[Oo]bj/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+*.ipch
+*.cachefile
+*.tss
+*.vspscc
+*.vssscc
+*.pfx
+*.publishsettings
+*.dbmdl
+*.dbproj.schemaview
+*.tmp
+*.tmp_proj
+*.log
+*.psess
+*.vsp
+*.vspx
+*.sap
