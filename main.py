@@ -5,6 +5,7 @@ from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from aiogram.filters import CommandStart
 from aiogram.fsm.storage.memory import MemoryStorage
 from dotenv import load_dotenv
+from bot.handlers.hedge import router as hedge_router
 
 # Load the token from .env
 load_dotenv()
@@ -13,6 +14,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 # Initialize the bot and dispatcher
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher(storage=MemoryStorage())
+dp.include_router(hedge_router)
 
 # Main menu
 main_menu = ReplyKeyboardMarkup(
